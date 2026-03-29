@@ -1,0 +1,507 @@
+version: 1.0.0
+description: Flat index of milestones for search and discovery.
+milestones:
+- id: board-investor-reporting-rhythm
+  category: funding
+  title: Board and investor reporting
+  path: goals/funding/board-investor-reporting-rhythm
+  goal_yaml: goals/funding/board-investor-reporting-rhythm/goal.yaml
+  checklist: goals/funding/board-investor-reporting-rhythm/checklist.md
+  tags:
+  - board
+  - reporting
+- id: early-financing-rounds
+  category: funding
+  title: Early financing rounds
+  path: goals/funding/early-financing-rounds
+  goal_yaml: goals/funding/early-financing-rounds/goal.yaml
+  checklist: goals/funding/early-financing-rounds/checklist.md
+  tags:
+  - fundraising
+  - pre-seed
+  - seed
+- id: grants-accelerators-strategic
+  category: funding
+  title: Grants, accelerators, and strategic capital
+  path: goals/funding/grants-accelerators-strategic
+  goal_yaml: goals/funding/grants-accelerators-strategic/goal.yaml
+  checklist: goals/funding/grants-accelerators-strategic/checklist.md
+  tags:
+  - grants
+  - accelerators
+- id: investor-pipeline-diligence
+  category: funding
+  title: Investor pipeline and diligence
+  path: goals/funding/investor-pipeline-diligence
+  goal_yaml: goals/funding/investor-pipeline-diligence/goal.yaml
+  checklist: goals/funding/investor-pipeline-diligence/checklist.md
+  tags:
+  - investors
+  - diligence
+- id: next-round-unlock-milestones
+  category: funding
+  title: Milestones that unlock the next round
+  path: goals/funding/next-round-unlock-milestones
+  goal_yaml: goals/funding/next-round-unlock-milestones/goal.yaml
+  checklist: goals/funding/next-round-unlock-milestones/checklist.md
+  tags:
+  - fundraising
+  - milestones
+  - traction
+- id: non-equity-financing-options
+  category: funding
+  title: Non-equity financing options
+  path: goals/funding/non-equity-financing-options
+  goal_yaml: goals/funding/non-equity-financing-options/goal.yaml
+  checklist: goals/funding/non-equity-financing-options/checklist.md
+  tags:
+  - debt
+  - rbf
+  - credits
+- id: raising-seed-round
+  category: funding
+  title: Raising a seed round
+  path: goals/funding/raising-seed-round
+  goal_yaml: goals/funding/raising-seed-round/goal.yaml
+  checklist: goals/funding/raising-seed-round/checklist.md
+  tags:
+  - fundraising
+  - investors
+  - runway
+- id: runway-model-and-buffer
+  category: funding
+  title: Runway model and buffer
+  path: goals/funding/runway-model-and-buffer
+  goal_yaml: goals/funding/runway-model-and-buffer/goal.yaml
+  checklist: goals/funding/runway-model-and-buffer/checklist.md
+  tags:
+  - runway
+  - burn
+  - planning
+- id: unit-economics-experiments
+  category: funding
+  title: Unit economics experiments
+  path: goals/funding/unit-economics-experiments
+  goal_yaml: goals/funding/unit-economics-experiments/goal.yaml
+  checklist: goals/funding/unit-economics-experiments/checklist.md
+  tags:
+  - unit-economics
+  - margin
+- id: wind-down-or-acqui-hire-optionality
+  category: funding
+  title: Wind-down or acqui-hire optionality
+  path: goals/funding/wind-down-or-acqui-hire-optionality
+  goal_yaml: goals/funding/wind-down-or-acqui-hire-optionality/goal.yaml
+  checklist: goals/funding/wind-down-or-acqui-hire-optionality/checklist.md
+  tags:
+  - runway
+  - exit
+- id: beta-and-launch-paths
+  category: building
+  title: Beta and launch paths
+  path: goals/building/beta-and-launch-paths
+  goal_yaml: goals/building/beta-and-launch-paths/goal.yaml
+  checklist: goals/building/beta-and-launch-paths/checklist.md
+  tags:
+  - launch
+  - beta
+- id: deep-tech-r-and-d-milestones
+  category: building
+  title: Deep tech and R&D milestones
+  path: goals/building/deep-tech-r-and-d-milestones
+  goal_yaml: goals/building/deep-tech-r-and-d-milestones/goal.yaml
+  checklist: goals/building/deep-tech-r-and-d-milestones/checklist.md
+  tags:
+  - r-and-d
+  - trials
+- id: defining-mvp-scope
+  category: building
+  title: Defining MVP scope
+  path: goals/building/defining-mvp-scope
+  goal_yaml: goals/building/defining-mvp-scope/goal.yaml
+  checklist: goals/building/defining-mvp-scope/checklist.md
+  tags:
+  - mvp
+  - scope
+- id: hardware-and-physical-goods
+  category: building
+  title: Hardware and physical goods
+  path: goals/building/hardware-and-physical-goods
+  goal_yaml: goals/building/hardware-and-physical-goods/goal.yaml
+  checklist: goals/building/hardware-and-physical-goods/checklist.md
+  tags:
+  - hardware
+  - supply-chain
+- id: pivot-or-scope-cut
+  category: building
+  title: Pivot or scope cut
+  path: goals/building/pivot-or-scope-cut
+  goal_yaml: goals/building/pivot-or-scope-cut/goal.yaml
+  checklist: goals/building/pivot-or-scope-cut/checklist.md
+  tags:
+  - pivot
+  - strategy
+- id: product-surface-expansion
+  category: building
+  title: Product surface expansion
+  path: goals/building/product-surface-expansion
+  goal_yaml: goals/building/product-surface-expansion/goal.yaml
+  checklist: goals/building/product-surface-expansion/checklist.md
+  tags:
+  - api
+  - integrations
+- id: reliability-support-ops
+  category: building
+  title: Reliability and support
+  path: goals/building/reliability-support-ops
+  goal_yaml: goals/building/reliability-support-ops/goal.yaml
+  checklist: goals/building/reliability-support-ops/checklist.md
+  tags:
+  - reliability
+  - support
+- id: shipping-mvp
+  category: building
+  title: Shipping your MVP
+  path: goals/building/shipping-mvp
+  goal_yaml: goals/building/shipping-mvp/goal.yaml
+  checklist: goals/building/shipping-mvp/checklist.md
+  tags:
+  - mvp
+  - launch
+  - scope
+- id: technical-foundation
+  category: building
+  title: Technical foundation
+  path: goals/building/technical-foundation
+  goal_yaml: goals/building/technical-foundation/goal.yaml
+  checklist: goals/building/technical-foundation/checklist.md
+  tags:
+  - engineering
+  - security
+- id: community-or-open-source
+  category: customers
+  title: Community or open source
+  path: goals/customers/community-or-open-source
+  goal_yaml: goals/customers/community-or-open-source/goal.yaml
+  checklist: goals/customers/community-or-open-source/checklist.md
+  tags:
+  - community
+  - open-source
+- id: early-gtm-motion
+  category: customers
+  title: Early go-to-market motion
+  path: goals/customers/early-gtm-motion
+  goal_yaml: goals/customers/early-gtm-motion/goal.yaml
+  checklist: goals/customers/early-gtm-motion/checklist.md
+  tags:
+  - gtm
+  - growth
+- id: feedback-loop-metrics
+  category: customers
+  title: Feedback loop and metrics
+  path: goals/customers/feedback-loop-metrics
+  goal_yaml: goals/customers/feedback-loop-metrics/goal.yaml
+  checklist: goals/customers/feedback-loop-metrics/checklist.md
+  tags:
+  - metrics
+  - feedback
+- id: first-case-studies
+  category: customers
+  title: First case studies and references
+  path: goals/customers/first-case-studies
+  goal_yaml: goals/customers/first-case-studies/goal.yaml
+  checklist: goals/customers/first-case-studies/checklist.md
+  tags:
+  - case-studies
+  - social-proof
+- id: first-paying-users-design-partners
+  category: customers
+  title: First paying users or design partners
+  path: goals/customers/first-paying-users-design-partners
+  goal_yaml: goals/customers/first-paying-users-design-partners/goal.yaml
+  checklist: goals/customers/first-paying-users-design-partners/checklist.md
+  tags:
+  - revenue
+  - design-partners
+- id: icp-and-wedge
+  category: customers
+  title: ICP and wedge
+  path: goals/customers/icp-and-wedge
+  goal_yaml: goals/customers/icp-and-wedge/goal.yaml
+  checklist: goals/customers/icp-and-wedge/checklist.md
+  tags:
+  - icp
+  - positioning
+- id: international-expansion
+  category: customers
+  title: International expansion
+  path: goals/customers/international-expansion
+  goal_yaml: goals/customers/international-expansion/goal.yaml
+  checklist: goals/customers/international-expansion/checklist.md
+  tags:
+  - international
+  - expansion
+- id: partnerships-and-channels
+  category: customers
+  title: Partnerships and channels
+  path: goals/customers/partnerships-and-channels
+  goal_yaml: goals/customers/partnerships-and-channels/goal.yaml
+  checklist: goals/customers/partnerships-and-channels/checklist.md
+  tags:
+  - partnerships
+  - channels
+- id: positioning-and-story
+  category: customers
+  title: Positioning and story
+  path: goals/customers/positioning-and-story
+  goal_yaml: goals/customers/positioning-and-story/goal.yaml
+  checklist: goals/customers/positioning-and-story/checklist.md
+  tags:
+  - positioning
+  - brand
+- id: pricing-and-packaging
+  category: customers
+  title: Pricing and packaging
+  path: goals/customers/pricing-and-packaging
+  goal_yaml: goals/customers/pricing-and-packaging/goal.yaml
+  checklist: goals/customers/pricing-and-packaging/checklist.md
+  tags:
+  - pricing
+  - packaging
+- id: problem-solution-validation
+  category: customers
+  title: Problem–solution validation
+  path: goals/customers/problem-solution-validation
+  goal_yaml: goals/customers/problem-solution-validation/goal.yaml
+  checklist: goals/customers/problem-solution-validation/checklist.md
+  tags:
+  - validation
+  - pilots
+- id: strategic-design-partners
+  category: customers
+  title: Strategic design partners
+  path: goals/customers/strategic-design-partners
+  goal_yaml: goals/customers/strategic-design-partners/goal.yaml
+  checklist: goals/customers/strategic-design-partners/checklist.md
+  tags:
+  - design-partners
+  - enterprise
+- id: compliance-for-your-market
+  category: trust
+  title: Compliance for your market
+  path: goals/trust/compliance-for-your-market
+  goal_yaml: goals/trust/compliance-for-your-market/goal.yaml
+  checklist: goals/trust/compliance-for-your-market/checklist.md
+  tags:
+  - compliance
+  - soc2
+- id: dual-mission-structure
+  category: trust
+  title: Dual mission or structure
+  path: goals/trust/dual-mission-structure
+  goal_yaml: goals/trust/dual-mission-structure/goal.yaml
+  checklist: goals/trust/dual-mission-structure/checklist.md
+  tags:
+  - mission
+  - b-corp
+- id: ethics-and-misuse
+  category: trust
+  title: Ethics and misuse prevention
+  path: goals/trust/ethics-and-misuse
+  goal_yaml: goals/trust/ethics-and-misuse/goal.yaml
+  checklist: goals/trust/ethics-and-misuse/checklist.md
+  tags:
+  - ethics
+  - safety
+- id: incident-readiness
+  category: trust
+  title: Incident readiness
+  path: goals/trust/incident-readiness
+  goal_yaml: goals/trust/incident-readiness/goal.yaml
+  checklist: goals/trust/incident-readiness/checklist.md
+  tags:
+  - incidents
+  - comms
+- id: ip-trademarks-basics
+  category: trust
+  title: IP and trademarks basics
+  path: goals/trust/ip-trademarks-basics
+  goal_yaml: goals/trust/ip-trademarks-basics/goal.yaml
+  checklist: goals/trust/ip-trademarks-basics/checklist.md
+  tags:
+  - ip
+  - trademarks
+- id: regulatory-industry-rules
+  category: trust
+  title: Regulatory and industry rules
+  path: goals/trust/regulatory-industry-rules
+  goal_yaml: goals/trust/regulatory-industry-rules/goal.yaml
+  checklist: goals/trust/regulatory-industry-rules/checklist.md
+  tags:
+  - regulatory
+  - industry
+- id: security-and-privacy-posture
+  category: trust
+  title: Security and privacy posture
+  path: goals/trust/security-and-privacy-posture
+  goal_yaml: goals/trust/security-and-privacy-posture/goal.yaml
+  checklist: goals/trust/security-and-privacy-posture/checklist.md
+  tags:
+  - security
+  - privacy
+- id: cap-table-hygiene
+  category: operations
+  title: Cap table hygiene
+  path: goals/operations/cap-table-hygiene
+  goal_yaml: goals/operations/cap-table-hygiene/goal.yaml
+  checklist: goals/operations/cap-table-hygiene/checklist.md
+  tags:
+  - cap-table
+  - equity
+  - options
+- id: company-financial-backbone
+  category: operations
+  title: Company financial backbone
+  path: goals/operations/company-financial-backbone
+  goal_yaml: goals/operations/company-financial-backbone/goal.yaml
+  checklist: goals/operations/company-financial-backbone/checklist.md
+  tags:
+  - entity
+  - payroll
+  - accounting
+- id: customer-vendor-contract-templates
+  category: operations
+  title: Customer and vendor contract templates
+  path: goals/operations/customer-vendor-contract-templates
+  goal_yaml: goals/operations/customer-vendor-contract-templates/goal.yaml
+  checklist: goals/operations/customer-vendor-contract-templates/checklist.md
+  tags:
+  - contracts
+  - legal
+- id: insurance-d-and-o-epli
+  category: operations
+  title: Insurance when it matters
+  path: goals/operations/insurance-d-and-o-epli
+  goal_yaml: goals/operations/insurance-d-and-o-epli/goal.yaml
+  checklist: goals/operations/insurance-d-and-o-epli/checklist.md
+  tags:
+  - insurance
+  - d-o
+- id: runway-dashboard-burn-reviews
+  category: operations
+  title: Runway dashboard and burn reviews
+  path: goals/operations/runway-dashboard-burn-reviews
+  goal_yaml: goals/operations/runway-dashboard-burn-reviews/goal.yaml
+  checklist: goals/operations/runway-dashboard-burn-reviews/checklist.md
+  tags:
+  - runway
+  - dashboard
+- id: advisors-versus-operators
+  category: team
+  title: Advisors versus operators
+  path: goals/team/advisors-versus-operators
+  goal_yaml: goals/team/advisors-versus-operators/goal.yaml
+  checklist: goals/team/advisors-versus-operators/checklist.md
+  tags:
+  - advisors
+  - governance
+- id: co-founder-alignment
+  category: team
+  title: Co-founder alignment
+  path: goals/team/co-founder-alignment
+  goal_yaml: goals/team/co-founder-alignment/goal.yaml
+  checklist: goals/team/co-founder-alignment/checklist.md
+  tags:
+  - co-founders
+  - conflict
+- id: early-team-hires
+  category: team
+  title: Early team hires
+  path: goals/team/early-team-hires
+  goal_yaml: goals/team/early-team-hires/goal.yaml
+  checklist: goals/team/early-team-hires/checklist.md
+  tags:
+  - hiring
+  - early-team
+- id: first-developer-hire
+  category: team
+  title: Hiring your first developer
+  path: goals/team/first-developer-hire
+  goal_yaml: goals/team/first-developer-hire/goal.yaml
+  checklist: goals/team/first-developer-hire/checklist.md
+  tags:
+  - hiring
+  - first-hire
+  - onboarding
+- id: founder-sustainability
+  category: team
+  title: Founder sustainability
+  path: goals/team/founder-sustainability
+  goal_yaml: goals/team/founder-sustainability/goal.yaml
+  checklist: goals/team/founder-sustainability/checklist.md
+  tags:
+  - founders
+  - wellbeing
+- id: founding-roles-equity-decisions
+  category: team
+  title: Founding roles and equity
+  path: goals/team/founding-roles-equity-decisions
+  goal_yaml: goals/team/founding-roles-equity-decisions/goal.yaml
+  checklist: goals/team/founding-roles-equity-decisions/checklist.md
+  tags:
+  - founders
+  - equity
+- id: immigration-and-work-authorization
+  category: team
+  title: Immigration and work authorization
+  path: goals/team/immigration-and-work-authorization
+  goal_yaml: goals/team/immigration-and-work-authorization/goal.yaml
+  checklist: goals/team/immigration-and-work-authorization/checklist.md
+  tags:
+  - immigration
+  - visas
+- id: interview-process-and-bar
+  category: team
+  title: Interview process and bar
+  path: goals/team/interview-process-and-bar
+  goal_yaml: goals/team/interview-process-and-bar/goal.yaml
+  checklist: goals/team/interview-process-and-bar/checklist.md
+  tags:
+  - hiring
+  - interviews
+- id: onboarding-and-async-comms
+  category: team
+  title: Onboarding and async communication
+  path: goals/team/onboarding-and-async-comms
+  goal_yaml: goals/team/onboarding-and-async-comms/goal.yaml
+  checklist: goals/team/onboarding-and-async-comms/checklist.md
+  tags:
+  - onboarding
+  - remote
+- id: operating-rhythm
+  category: team
+  title: Operating rhythm
+  path: goals/team/operating-rhythm
+  goal_yaml: goals/team/operating-rhythm/goal.yaml
+  checklist: goals/team/operating-rhythm/checklist.md
+  tags:
+  - operations
+  - planning
+- id: remote-and-global-hiring
+  category: team
+  title: Remote and global hiring
+  path: goals/team/remote-and-global-hiring
+  goal_yaml: goals/team/remote-and-global-hiring/goal.yaml
+  checklist: goals/team/remote-and-global-hiring/checklist.md
+  tags:
+  - remote
+  - global
+- id: values-and-working-norms
+  category: team
+  title: Values and working norms
+  path: goals/team/values-and-working-norms
+  goal_yaml: goals/team/values-and-working-norms/goal.yaml
+  checklist: goals/team/values-and-working-norms/checklist.md
+  tags:
+  - culture
+  - values

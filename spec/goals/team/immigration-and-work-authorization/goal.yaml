@@ -1,0 +1,15 @@
+id: immigration-and-work-authorization
+title: Immigration and work authorization
+category: team
+version: 0.1.0
+summary: Sponsor or hire within visa constraints for key people.
+tags:
+- immigration
+- visas
+agent_hint: Timeline, costs, and backup plans for critical hires.
+load:
+- goals/team/immigration-and-work-authorization/agent-context.md
+- goals/team/immigration-and-work-authorization/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

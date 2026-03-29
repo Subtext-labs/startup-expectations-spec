@@ -1,0 +1,75 @@
+id: shipping-mvp
+title: Shipping your MVP
+category: building
+version: "0.2.0"
+summary: Ship a first product that proves your core idea with real users or structured feedback—not a kitchen-sink release.
+tags:
+  - mvp
+  - launch
+  - scope
+agent_hint: Match release quality to the declared level; prove one hypothesis per ship; capture learning that feeds customers and funding narratives.
+outcomes:
+  - id: hypothesis-observable
+    statement: A defined user can complete the primary job in the product so the core hypothesis is testable.
+    signals:
+      - Clear happy path for one job-to-be-done tied to the hypothesis
+      - Observable success or failure (usage, completion, or structured qualitative signal)
+  - id: release-quality
+    statement: The build meets the quality bar for its ship level—no silent harm, critical paths covered.
+    signals:
+      - Explicit release criteria checked for this level
+      - Known gaps documented and accepted for this level only
+  - id: learning-captured
+    statement: The team records what was learned and what changes next (scope, ICP, or kill).
+    signals:
+      - Decision log or review within a short window of ship
+      - Link from feedback to the next experiment or milestone
+  - id: pace-sustainable
+    statement: Shipping does not depend on unsustainable heroics; the team can run another cycle.
+    signals:
+      - Resourcing and timeline match the stated level
+      - No implicit promise of permanent emergency mode
+levels:
+  - id: l0-internal
+    label: Internal or dogfood
+    summary: Pipeline and integration proof; not market evidence.
+    bar: Builds deploy; core flows work for the team; may lack polish and guardrails for outsiders.
+    exit_criteria:
+      - CI and environments usable by the team
+      - One critical path demoable internally
+  - id: l1-private
+    label: Private cohort
+    summary: Invited users or design partners; manual ops and support OK; learning beats scale.
+    bar: No data loss on the happy path; basic recovery paths; privacy and access controlled for cohort size.
+    exit_criteria:
+      - Named users or partners with success criteria written in advance
+      - Feedback mechanism in place (interviews, tickets, or telemetry)
+  - id: l2-limited
+    label: Limited beta
+    summary: Broader than a handful of accounts; reliability and support for real daily use within caps.
+    bar: Stated SLOs or review cadence; on-call or escalation path; rollback plan for bad releases.
+    exit_criteria:
+      - Capacity or waitlist reflects load assumptions
+      - Support and incident path exercised at least once
+  - id: l3-public-mvp
+    label: Public MVP
+    summary: Open signup or broad access with explicit product boundaries; scales to stated volume.
+    bar: Security, privacy, and abuse posture match public exposure; comms for known limits; sustainable support.
+    exit_criteria:
+      - Public-facing readiness (status, docs, or in-product messaging as needed)
+      - Monitoring and ownership for production traffic
+relates_to:
+  categories:
+    - customers
+    - funding
+    - trust
+  goal_ids:
+    - defining-mvp-scope
+    - problem-solution-validation
+    - feedback-loop-metrics
+  summary: Scope and validation goals set what ships; this goal is execution and bar. Strong signals feed customers (traction), funding (proof), and trust (safe handling of data and incidents).
+load:
+  - goals/building/shipping-mvp/agent-context.md
+  - shared/roles/engineering-manager/responsibilities.md
+  - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+  - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

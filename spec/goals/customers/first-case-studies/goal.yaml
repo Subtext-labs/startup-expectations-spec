@@ -1,0 +1,15 @@
+id: first-case-studies
+title: First case studies and references
+category: customers
+version: 0.1.0
+summary: Document wins customers will stand behind.
+tags:
+- case-studies
+- social-proof
+agent_hint: Story arc, metrics, and approval process.
+load:
+- goals/customers/first-case-studies/agent-context.md
+- goals/customers/first-case-studies/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

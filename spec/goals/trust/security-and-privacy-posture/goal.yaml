@@ -1,0 +1,15 @@
+id: security-and-privacy-posture
+title: Security and privacy posture
+category: trust
+version: 0.1.0
+summary: Protect data you collect with access control, vendors, and policies.
+tags:
+- security
+- privacy
+agent_hint: Data map, retention, subprocessors, access reviews.
+load:
+- goals/trust/security-and-privacy-posture/agent-context.md
+- goals/trust/security-and-privacy-posture/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

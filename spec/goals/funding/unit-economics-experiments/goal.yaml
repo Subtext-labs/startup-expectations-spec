@@ -1,0 +1,15 @@
+id: unit-economics-experiments
+title: Unit economics experiments
+category: funding
+version: 0.1.0
+summary: Test gross margin, payback, and efficiency—not only top-line growth.
+tags:
+- unit-economics
+- margin
+agent_hint: Contribution margin, CAC payback experiments, cohort signals.
+load:
+- goals/funding/unit-economics-experiments/agent-context.md
+- goals/funding/unit-economics-experiments/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

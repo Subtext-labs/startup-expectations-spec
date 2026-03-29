@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/startup-expectations/spec/role.schema.json",
+  "title": "Role",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "version"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "related_role_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "extends": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^shared/"
+      },
+      "description": "Paths under spec/ to shared responsibility documents, applied before responsibilities_document"
+    },
+    "responsibilities_document": {
+      "type": "string",
+      "description": "Path relative to this role directory, usually responsibilities.md"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+id: co-founder-alignment
+title: Co-founder alignment
+category: team
+version: 0.1.0
+summary: Handle conflict, departures, and equity if someone leaves.
+tags:
+- co-founders
+- conflict
+agent_hint: Founder agreements, good-leaver clauses, communication norms.
+load:
+- goals/team/co-founder-alignment/agent-context.md
+- goals/team/co-founder-alignment/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

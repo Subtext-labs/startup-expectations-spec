@@ -1,0 +1,15 @@
+id: feedback-loop-metrics
+title: Feedback loop and metrics
+category: customers
+version: 0.1.0
+summary: Support, usage, NPS, churn—so you learn continuously.
+tags:
+- metrics
+- feedback
+agent_hint: Instrumentation, support triage, and review cadence.
+load:
+- goals/customers/feedback-loop-metrics/agent-context.md
+- goals/customers/feedback-loop-metrics/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

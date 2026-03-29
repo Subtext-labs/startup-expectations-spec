@@ -1,0 +1,15 @@
+id: onboarding-and-async-comms
+title: Onboarding and async communication
+category: team
+version: 0.1.0
+summary: Help new people ramp with clear async norms.
+tags:
+- onboarding
+- remote
+agent_hint: First week plan, docs, and communication tools.
+load:
+- goals/team/onboarding-and-async-comms/agent-context.md
+- goals/team/onboarding-and-async-comms/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

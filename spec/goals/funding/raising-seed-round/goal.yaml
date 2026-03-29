@@ -1,0 +1,15 @@
+id: raising-seed-round
+title: Raising a seed round
+category: funding
+version: "0.1.0"
+summary: Get seed funding with a clear story, real traction signals, and a believable plan for the money.
+tags:
+  - fundraising
+  - investors
+  - runway
+agent_hint: Put clarity for investors first—traction, milestones, and how you will spend the round—before deep internal engineering detail.
+load:
+  - goals/funding/raising-seed-round/agent-context.md
+  - shared/roles/engineering-manager/responsibilities.md
+  - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+  - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

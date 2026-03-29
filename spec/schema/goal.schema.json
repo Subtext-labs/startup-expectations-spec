@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/startup-expectations/spec/goal.schema.json",
+  "title": "Goal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "version", "category", "load"],
+  "properties": {
+    "category": {
+      "type": "string",
+      "enum": ["funding", "building", "customers", "trust", "operations", "team"]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "agent_hint": {
+      "type": "string",
+      "description": "One-line retrieval hint for tools and agents"
+    },
+    "load": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9_./-]+\\.(md|yaml|yml|json)$"
+      },
+      "description": "Paths relative to spec/; read in order for merged context"
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "statement"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "statement": { "type": "string", "minLength": 1 },
+          "signals": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "summary"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "label": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string" },
+          "bar": { "type": "string" },
+          "exit_criteria": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "relates_to": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["funding", "building", "customers", "trust", "operations", "team"]
+          }
+        },
+        "goal_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
+        },
+        "summary": { "type": "string" }
+      }
+    }
+  }
+}

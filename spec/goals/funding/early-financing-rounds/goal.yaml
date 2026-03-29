@@ -1,0 +1,16 @@
+id: early-financing-rounds
+title: Early financing rounds
+category: funding
+version: 0.1.0
+summary: Line up pre-seed, seed, or extension money with a clear amount and use-of-funds story.
+tags:
+- fundraising
+- pre-seed
+- seed
+agent_hint: Anchor amount, stage fit, and how the round unlocks the next 12–18 months.
+load:
+- goals/funding/early-financing-rounds/agent-context.md
+- goals/funding/early-financing-rounds/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

@@ -1,0 +1,15 @@
+id: defining-mvp-scope
+title: Defining MVP scope
+category: building
+version: 0.1.0
+summary: Decide what is in and out for the smallest learnable release.
+tags:
+- mvp
+- scope
+agent_hint: One primary job-to-be-done; explicit non-goals.
+load:
+- goals/building/defining-mvp-scope/agent-context.md
+- goals/building/defining-mvp-scope/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

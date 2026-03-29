@@ -1,0 +1,15 @@
+id: compliance-for-your-market
+title: Compliance for your market
+category: trust
+version: 0.1.0
+summary: HIPAA, SOC 2 path, or sector rules when required to sell.
+tags:
+- compliance
+- soc2
+agent_hint: Scope, timeline, and customer-driven requirements.
+load:
+- goals/trust/compliance-for-your-market/agent-context.md
+- goals/trust/compliance-for-your-market/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

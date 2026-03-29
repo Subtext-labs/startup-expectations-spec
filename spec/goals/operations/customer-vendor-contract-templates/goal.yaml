@@ -1,0 +1,15 @@
+id: customer-vendor-contract-templates
+title: Customer and vendor contract templates
+category: operations
+version: 0.1.0
+summary: Use stage-appropriate templates for customers and vendors.
+tags:
+- contracts
+- legal
+agent_hint: MSA, order form, DPA basics; vendor SOWs that match your risk.
+load:
+- goals/operations/customer-vendor-contract-templates/agent-context.md
+- goals/operations/customer-vendor-contract-templates/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

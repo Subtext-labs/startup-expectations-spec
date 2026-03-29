@@ -1,0 +1,15 @@
+id: values-and-working-norms
+title: Values and working norms
+category: team
+version: 0.1.0
+summary: Write down how you work at a useful minimum.
+tags:
+- culture
+- values
+agent_hint: Behaviors you reward; async vs sync defaults.
+load:
+- goals/team/values-and-working-norms/agent-context.md
+- goals/team/values-and-working-norms/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

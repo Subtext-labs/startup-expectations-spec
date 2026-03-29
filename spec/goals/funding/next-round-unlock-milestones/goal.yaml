@@ -1,0 +1,16 @@
+id: next-round-unlock-milestones
+title: Milestones that unlock the next round
+category: funding
+version: 0.1.0
+summary: Hit traction, product, or team proof points investors expect before the next raise.
+tags:
+- fundraising
+- milestones
+- traction
+agent_hint: Pick 2–4 measurable unlocks and dates; tie them to narrative.
+load:
+- goals/funding/next-round-unlock-milestones/agent-context.md
+- goals/funding/next-round-unlock-milestones/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

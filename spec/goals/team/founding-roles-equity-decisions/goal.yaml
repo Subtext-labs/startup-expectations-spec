@@ -1,0 +1,15 @@
+id: founding-roles-equity-decisions
+title: Founding roles and equity
+category: team
+version: 0.1.0
+summary: Split roles, equity, and decision rights so the team can move fast without constant renegotiation.
+tags:
+- founders
+- equity
+agent_hint: Role clarity, vesting, and how big decisions get made.
+load:
+- goals/team/founding-roles-equity-decisions/agent-context.md
+- goals/team/founding-roles-equity-decisions/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

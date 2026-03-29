@@ -1,0 +1,10 @@
+id: engineering-manager
+title: Engineering manager
+summary: Leads engineers on delivery and quality, and supports people growth and hiring.
+version: "0.1.0"
+aliases:
+  - Engineering lead
+  - Software engineering manager
+extends:
+  - shared/roles/engineering-manager/responsibilities.md
+responsibilities_document: responsibilities.md

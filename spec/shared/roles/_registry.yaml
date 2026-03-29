@@ -1,0 +1,4 @@
+version: "1.0.0"
+roles:
+  - id: engineering-manager
+    path: engineering-manager

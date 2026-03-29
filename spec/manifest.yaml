@@ -1,0 +1,22 @@
+version: "1.0.0"
+schema:
+  role: schema/role.schema.json
+  goal: schema/goal.schema.json
+entry_points:
+  goals: goals/_registry.yaml
+  milestone_catalog: goals/milestone-catalog.md
+  maturity: maturity/index.yaml
+  maturity_lists:
+    pre_seed: maturity/pre-seed.md
+    seed: maturity/seed.md
+    series_a: maturity/series-a.md
+  industries: industries/_registry.yaml
+  shared_roles: shared/roles/_registry.yaml
+agent_protocol:
+  start_here: manifest.yaml
+  steps:
+    - Read this file for registry paths and schema locations.
+    - For stage-first navigation, read maturity/index.yaml or maturity/pre-seed.md, seed.md, series-a.md (ordered milestone lists).
+    - Open goals/_registry.yaml for categories (funding, building, customers, trust, operations, team) and milestone paths under goals/<category>/<milestone-id>/.
+    - Open each goals/<category>/<milestone-id>/goal.yaml; follow load array in order; resolve paths relative to spec/.
+    - For role packages, merge shared extends then leaf role.yaml and responsibilities per README.

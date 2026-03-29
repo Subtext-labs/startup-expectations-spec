@@ -1,0 +1,15 @@
+id: incident-readiness
+title: Incident readiness
+category: trust
+version: 0.1.0
+summary: Know who responds and how you communicate when things break.
+tags:
+- incidents
+- comms
+agent_hint: On-call, status page, customer messaging templates.
+load:
+- goals/trust/incident-readiness/agent-context.md
+- goals/trust/incident-readiness/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

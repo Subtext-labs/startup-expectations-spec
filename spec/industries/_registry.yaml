@@ -1,0 +1,4 @@
+version: "1.0.0"
+industries:
+  - id: technology
+    path: technology

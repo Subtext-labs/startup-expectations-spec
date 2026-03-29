@@ -1,0 +1,16 @@
+id: non-equity-financing-options
+title: Non-equity financing options
+category: funding
+version: 0.1.0
+summary: Consider venture debt, revenue-based financing, or credits without giving up equity prematurely.
+tags:
+- debt
+- rbf
+- credits
+agent_hint: Covenants, cost of capital, and timing vs equity rounds.
+load:
+- goals/funding/non-equity-financing-options/agent-context.md
+- goals/funding/non-equity-financing-options/checklist.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md
