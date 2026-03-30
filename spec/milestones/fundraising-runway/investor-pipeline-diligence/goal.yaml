@@ -1,0 +1,46 @@
+id: investor-pipeline-diligence
+title: Investor pipeline and diligence
+category: funding
+version: 0.1.0
+summary: Run intros, materials, and a light data room so diligence does not stall.
+tags:
+- investors
+- diligence
+agent_hint: Pipeline stages, repeatable deck, metrics definitions, data room basics.
+levels:
+  - id: l0
+    label: No pipeline
+    summary: Ad hoc investor conversations with no tracking or consistent story.
+    bar: Fundraising is reactive and unstructured.
+    exit_criteria:
+      - Target investor list created with at least 20 names
+  - id: l1
+    label: List exists
+    summary: Names and status tracked in a spreadsheet; deck sent to some.
+    bar: Founders can state which investors have the deck and where each conversation stands.
+    exit_criteria:
+      - Pipeline tracker updated at least weekly
+      - Deck sent to 10+ targeted investors
+  - id: l2
+    label: Active CRM
+    summary: Stages defined, follow-up cadence in place, data room ready.
+    bar: No investor waiting more than a week for a follow-up; data room answers common questions.
+    exit_criteria:
+      - Data room complete with cap table, financials, metrics, and product demo
+      - At least one term sheet received or lead investor identified
+  - id: l3
+    label: Repeatable process
+    summary: Pitch refined by feedback loops; diligence docs updated proactively each round.
+    bar: Each raise is faster than the last; process documented and reusable.
+    exit_criteria:
+      - Post-raise retrospective documents what worked and what to improve
+      - Data room template ready for next raise with minimal rework
+stage_relevance:
+  primary: seed
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/funding/investor-pipeline-diligence/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

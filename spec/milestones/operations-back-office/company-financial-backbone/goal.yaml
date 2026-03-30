@@ -1,0 +1,18 @@
+id: company-financial-backbone
+title: Company financial backbone
+category: operations
+version: 0.1.0
+summary: Stand up entity, bank, payroll, and basic accounting rhythm.
+tags:
+- entity
+- payroll
+- accounting
+agent_hint: Legal entity, banking, payroll provider, books closed monthly.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed, series-a]
+load:
+- goals/operations/company-financial-backbone/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

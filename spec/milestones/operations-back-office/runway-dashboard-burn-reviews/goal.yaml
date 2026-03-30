@@ -1,0 +1,18 @@
+id: runway-dashboard-burn-reviews
+title: Runway dashboard and burn reviews
+category: operations
+version: 0.1.0
+summary: Review cash, burn, and forecast on a fixed cadence.
+tags:
+- runway
+- dashboard
+agent_hint: Single source of truth for cash; weekly or monthly burn review ritual.
+stage_relevance:
+  primary: seed
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/operations/runway-dashboard-burn-reviews/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

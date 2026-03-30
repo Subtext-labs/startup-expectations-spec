@@ -1,0 +1,44 @@
+id: grants-accelerators-strategic
+title: Grants, accelerators, and strategic capital
+category: funding
+version: 0.1.0
+summary: Use non-dilutive or strategic paths when they fit speed and constraints.
+tags:
+- grants
+- accelerators
+agent_hint: Fit to program, time cost, and cap table impact of strategic money.
+levels:
+  - id: l0
+    label: Not explored
+    summary: No awareness of applicable programs or strategic capital options.
+    bar: Founders have not researched non-dilutive or program-based funding.
+    exit_criteria:
+      - List of relevant programs researched and eligibility checked
+  - id: l1
+    label: Researched
+    summary: Relevant programs identified; time cost and cap table impact considered.
+    bar: Decision made on which programs are worth pursuing and why.
+    exit_criteria:
+      - At least one application started or submitted
+  - id: l2
+    label: Applied or enrolled
+    summary: In a program or application submitted; resources and network being tapped.
+    bar: Active participation with clear deliverables and timeline.
+    exit_criteria:
+      - Capital or resources from program received
+      - Network introductions made and followed up
+  - id: l3
+    label: Leveraged
+    summary: Program capital, network, and credibility actively used to accelerate the business.
+    bar: Measurable outcome tied to program participation.
+    exit_criteria:
+      - At least one customer, investor, or hire sourced through program network
+      - Decision made on whether to apply to next cohort or equivalent
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed]
+load:
+- goals/funding/grants-accelerators-strategic/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

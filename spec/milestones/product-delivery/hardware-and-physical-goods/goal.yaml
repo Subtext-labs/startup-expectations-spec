@@ -1,0 +1,17 @@
+id: hardware-and-physical-goods
+title: Hardware and physical goods
+category: building
+version: 0.1.0
+summary: Supply chain, certifications, and returns if you ship atoms.
+tags:
+- hardware
+- supply-chain
+agent_hint: BOM, manufacturing partners, quality, recalls.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed, series-a]
+load:
+- goals/building/hardware-and-physical-goods/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

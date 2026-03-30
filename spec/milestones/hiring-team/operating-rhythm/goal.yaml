@@ -1,0 +1,18 @@
+id: operating-rhythm
+title: Operating rhythm
+category: team
+version: 0.1.0
+summary: Goals, weekly priorities, and retros that match team size.
+tags:
+- operations
+- planning
+agent_hint: Lightweight OKRs or priorities; meeting hygiene.
+stage_relevance:
+  primary: seed
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/team/operating-rhythm/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

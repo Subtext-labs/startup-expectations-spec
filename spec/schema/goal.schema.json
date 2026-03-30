@@ -97,6 +97,33 @@
         },
         "summary": { "type": "string" }
       }
+    },
+    "stage_relevance": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Declares when this goal is relevant across funding stages",
+      "required": ["primary", "applies_to"],
+      "properties": {
+        "primary": {
+          "type": "string",
+          "enum": ["pre-seed", "seed", "series-a"],
+          "description": "Stage when this goal first becomes critical"
+        },
+        "applies_to": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": ["pre-seed", "seed", "series-a"]
+          },
+          "description": "All stages where this goal is on the founder's radar"
+        },
+        "ignore_before": {
+          "type": "string",
+          "enum": ["pre-seed", "seed", "series-a"],
+          "description": "This goal is not actionable before this stage"
+        }
+      }
     }
   }
 }

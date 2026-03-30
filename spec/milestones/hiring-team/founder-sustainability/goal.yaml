@@ -1,0 +1,17 @@
+id: founder-sustainability
+title: Founder sustainability
+category: team
+version: 0.1.0
+summary: Protect cadence and boundaries so the company survives its builders.
+tags:
+- founders
+- wellbeing
+agent_hint: Rest, delegation, and support systems.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed, series-a]
+load:
+- goals/team/founder-sustainability/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

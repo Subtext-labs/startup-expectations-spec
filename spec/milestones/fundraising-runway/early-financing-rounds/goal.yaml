@@ -1,0 +1,45 @@
+id: early-financing-rounds
+title: Early financing rounds
+category: funding
+version: 0.1.0
+summary: Line up pre-seed, seed, or extension money with a clear amount and use-of-funds story.
+tags:
+- fundraising
+- pre-seed
+- seed
+agent_hint: Anchor amount, stage fit, and how the round unlocks the next 12–18 months.
+levels:
+  - id: l0
+    label: Bootstrapped with no plan
+    summary: Founders spending personal funds with no awareness of financing options.
+    bar: No external capital or structured financing in place.
+    exit_criteria:
+      - Financing options researched and relevant ones shortlisted
+  - id: l1
+    label: Exploring
+    summary: SAFEs, angels, or accelerators discussed but no commitments secured.
+    bar: At least one financing path actively being pursued.
+    exit_criteria:
+      - One or more instruments understood and term sheet or SAFE drafted
+  - id: l2
+    label: Capital secured
+    summary: First check received; runway extended to 12+ months.
+    bar: Signed agreements, funds in bank, basic investor reporting started.
+    exit_criteria:
+      - At least one signed SAFE or equity agreement with funds received
+      - Runway model updated to reflect new capital
+  - id: l3
+    label: Round structured
+    summary: Terms clear, reporting rhythm established, next milestone targets agreed with investors.
+    bar: All investors have signed docs; communication cadence confirmed.
+    exit_criteria:
+      - All investors have cap table entries and signed documents
+      - First investor update sent with agreed metrics
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed]
+load:
+- goals/funding/early-financing-rounds/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

@@ -1,0 +1,71 @@
+version: "1.0.0"
+summary: Maturity is the primary lens—each stage lists milestone ids in rough order of dependency. Canonical specs live under spec/goals/<category>/<id>/.
+stages:
+  - id: pre-seed
+    title: Pre-seed
+    proof: Problem and team are credible; first build and first learning—not scale.
+    milestone_ids:
+      - founding-roles-equity-decisions
+      - co-founder-alignment
+      - founder-sustainability
+      - company-financial-backbone
+      - runway-model-and-buffer
+      - early-financing-rounds
+      - grants-accelerators-strategic
+      - icp-and-wedge
+      - problem-solution-validation
+      - defining-mvp-scope
+      - technical-foundation
+      - shipping-mvp
+      - beta-and-launch-paths
+      - positioning-and-story
+      - first-developer-hire
+      - ip-trademarks-basics
+  - id: seed
+    title: Seed
+    proof: Traction or strong de-risking; seed-sized round and early GTM—not full repeatability yet.
+    milestone_ids:
+      - next-round-unlock-milestones
+      - raising-seed-round
+      - investor-pipeline-diligence
+      - cap-table-hygiene
+      - runway-dashboard-burn-reviews
+      - unit-economics-experiments
+      - non-equity-financing-options
+      - first-paying-users-design-partners
+      - feedback-loop-metrics
+      - pricing-and-packaging
+      - strategic-design-partners
+      - community-or-open-source
+      - reliability-support-ops
+      - customer-vendor-contract-templates
+      - security-and-privacy-posture
+      - incident-readiness
+      - early-team-hires
+      - interview-process-and-bar
+      - onboarding-and-async-comms
+      - operating-rhythm
+      - values-and-working-norms
+  - id: series-a
+    title: Series A
+    proof: Repeatable motion; raise to scale what already works—not first experiment.
+    milestone_ids:
+      - board-investor-reporting-rhythm
+      - early-gtm-motion
+      - first-case-studies
+      - partnerships-and-channels
+      - international-expansion
+      - product-surface-expansion
+      - compliance-for-your-market
+      - regulatory-industry-rules
+      - ethics-and-misuse
+      - security-and-privacy-posture
+      - incident-readiness
+      - insurance-d-and-o-epli
+      - dual-mission-structure
+      - deep-tech-r-and-d-milestones
+      - hardware-and-physical-goods
+      - pivot-or-scope-cut
+      - advisors-versus-operators
+      - remote-and-global-hiring
+      - immigration-and-work-authorization

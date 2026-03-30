@@ -1,0 +1,18 @@
+id: strategic-design-partners
+title: Strategic design partners
+category: customers
+version: 0.1.0
+summary: Deep co-build with a few logos that shape the roadmap.
+tags:
+- design-partners
+- enterprise
+agent_hint: Selection, contracts, and roadmap governance with partners.
+stage_relevance:
+  primary: seed
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/customers/strategic-design-partners/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

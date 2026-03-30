@@ -1,0 +1,17 @@
+id: icp-and-wedge
+title: ICP and wedge
+category: customers
+version: 0.1.0
+summary: Name who you serve first and the sharp wedge you win with.
+tags:
+- icp
+- positioning
+agent_hint: Ideal customer profile, pain, budget, and why you over alternatives.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed]
+load:
+- goals/customers/icp-and-wedge/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

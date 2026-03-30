@@ -1,0 +1,17 @@
+id: technical-foundation
+title: Technical foundation
+category: building
+version: 0.1.0
+summary: Repo, CI, environments, staging, secrets, baseline security.
+tags:
+- engineering
+- security
+agent_hint: Repeatable deploys, env parity, access control.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed, series-a]
+load:
+- goals/building/technical-foundation/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

@@ -1,0 +1,18 @@
+id: product-surface-expansion
+title: Product surface expansion
+category: building
+version: 0.1.0
+summary: Add mobile, API, or integrations when they are central to the offer.
+tags:
+- api
+- integrations
+agent_hint: Dependency order, partner commitments, and maintenance cost.
+stage_relevance:
+  primary: series-a
+  applies_to: [series-a]
+  ignore_before: seed
+load:
+- goals/building/product-surface-expansion/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

@@ -1,0 +1,18 @@
+id: first-developer-hire
+title: Hiring your first developer
+category: team
+version: "0.1.0"
+summary: Make your first engineering hire when you know what they will own and how they will ramp on a tiny team.
+tags:
+  - hiring
+  - first-hire
+  - onboarding
+agent_hint: Stress role clarity, level fit, interview signal, and first weeks on a small team—pay and title that match stage.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed]
+load:
+  - goals/team/first-developer-hire/agent-context.md
+  - shared/roles/engineering-manager/responsibilities.md
+  - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+  - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

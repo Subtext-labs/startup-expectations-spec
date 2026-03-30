@@ -1,0 +1,18 @@
+id: regulatory-industry-rules
+title: Regulatory and industry rules
+category: trust
+version: 0.1.0
+summary: Meet sector-specific rules beyond generic compliance.
+tags:
+- regulatory
+- industry
+agent_hint: Jurisdiction, licenses, and ongoing obligations.
+stage_relevance:
+  primary: series-a
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/trust/regulatory-industry-rules/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

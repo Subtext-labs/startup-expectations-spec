@@ -1,0 +1,18 @@
+id: remote-and-global-hiring
+title: Remote and global hiring
+category: team
+version: 0.1.0
+summary: Hire across countries with payroll and contracts that fit.
+tags:
+- remote
+- global
+agent_hint: Employer of record vs entity; compensation bands by location.
+stage_relevance:
+  primary: series-a
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/team/remote-and-global-hiring/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

@@ -1,0 +1,46 @@
+id: next-round-unlock-milestones
+title: Milestones that unlock the next round
+category: funding
+version: 0.1.0
+summary: Hit traction, product, or team proof points investors expect before the next raise.
+tags:
+- fundraising
+- milestones
+- traction
+agent_hint: Pick 2–4 measurable unlocks and dates; tie them to narrative.
+levels:
+  - id: l0
+    label: No milestones
+    summary: Founders plan to raise when they feel ready with no defined targets.
+    bar: No measurable criteria for the next raise exist.
+    exit_criteria:
+      - At least one measurable milestone identified that would unlock investor interest
+  - id: l1
+    label: Loose targets
+    summary: Vague ARR or user goals in mind but not written or shared.
+    bar: Founders can articulate informally what they are working toward.
+    exit_criteria:
+      - 2-4 milestones written down with metrics and rough timelines
+  - id: l2
+    label: Named milestones
+    summary: 2-4 specific measurable targets with dates, shared with current investors.
+    bar: Milestones are tied to the fundraising narrative and investor expectations.
+    exit_criteria:
+      - Milestones documented and shared with board or investors
+      - Progress reviewed at least monthly against targets
+  - id: l3
+    label: Tracked and communicated
+    summary: Milestone progress is visible to investors and used to time the next raise.
+    bar: Investors know current progress; raise is timed to milestone achievement.
+    exit_criteria:
+      - Milestone dashboard referenced in investor updates
+      - Next raise timeline derived from milestone projection
+stage_relevance:
+  primary: seed
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/funding/next-round-unlock-milestones/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

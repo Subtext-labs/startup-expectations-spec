@@ -1,0 +1,46 @@
+id: runway-model-and-buffer
+title: Runway model and buffer
+category: funding
+version: 0.1.0
+summary: Model burn, hiring, and buffer so you know months of runway under realistic scenarios.
+tags:
+- runway
+- burn
+- planning
+agent_hint: Scenarios for burn; hiring sensitivity; minimum buffer you will not go below.
+levels:
+  - id: l0
+    label: No visibility
+    summary: Spending from a bank account with no model or runway estimate.
+    bar: Founders do not know how many months of runway remain.
+    exit_criteria:
+      - Monthly burn calculated at least once
+  - id: l1
+    label: Basic spreadsheet
+    summary: Monthly burn known and rough runway estimated manually.
+    bar: Founders can state runway in months within reasonable accuracy.
+    exit_criteria:
+      - Burn and runway number reviewed at least monthly
+      - Hiring sensitivity understood at a high level
+  - id: l2
+    label: Scenario model
+    summary: Hiring plan and burn scenarios updated monthly with buffer thresholds defined.
+    bar: Multiple scenarios modeled; minimum buffer rule in place.
+    exit_criteria:
+      - Best/base/worst case scenarios documented
+      - Minimum cash buffer defined and enforced as a hard floor
+  - id: l3
+    label: Live dashboard
+    summary: Automated single source of truth reviewed on cadence; scenarios drive decisions.
+    bar: All spend flows into model automatically; board sees same view as founders.
+    exit_criteria:
+      - Dashboard connected to actuals (bank, payroll, card)
+      - Runway reviewed in board or investor update with variance flagged
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed, series-a]
+load:
+- goals/funding/runway-model-and-buffer/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

@@ -1,0 +1,17 @@
+id: positioning-and-story
+title: Positioning and story
+category: customers
+version: 0.1.0
+summary: Website, one-liner, and category narrative that matches reality.
+tags:
+- positioning
+- brand
+agent_hint: Message fit to ICP; proof points; clear CTA.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed, series-a]
+load:
+- goals/customers/positioning-and-story/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

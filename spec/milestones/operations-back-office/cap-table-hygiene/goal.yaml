@@ -1,0 +1,18 @@
+id: cap-table-hygiene
+title: Cap table hygiene
+category: operations
+version: 0.1.0
+summary: Keep early ownership, option pool, and instruments understandable for founders and future investors.
+tags:
+- cap-table
+- equity
+- options
+agent_hint: Splits, pool size, SAFEs vs priced round clarity; no surprise dilution math.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed, series-a]
+load:
+- goals/operations/cap-table-hygiene/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

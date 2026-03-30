@@ -1,0 +1,18 @@
+id: partnerships-and-channels
+title: Partnerships and channels
+category: customers
+version: 0.1.0
+summary: Platforms, resellers, or API ecosystems that extend reach.
+tags:
+- partnerships
+- channels
+agent_hint: Partner economics, enablement, and integration roadmap.
+stage_relevance:
+  primary: series-a
+  applies_to: [series-a]
+  ignore_before: seed
+load:
+- goals/customers/partnerships-and-channels/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

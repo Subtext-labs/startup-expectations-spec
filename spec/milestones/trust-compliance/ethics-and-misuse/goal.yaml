@@ -1,0 +1,18 @@
+id: ethics-and-misuse
+title: Ethics and misuse prevention
+category: trust
+version: 0.1.0
+summary: Reduce harm if your product can be abused.
+tags:
+- ethics
+- safety
+agent_hint: Use policies, monitoring, and escalation paths.
+stage_relevance:
+  primary: series-a
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/trust/ethics-and-misuse/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

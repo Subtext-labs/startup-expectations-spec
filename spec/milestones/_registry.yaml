@@ -1,0 +1,142 @@
+version: "1.0.0"
+categories:
+- id: funding
+  title: Fundraising & runway
+  summary: Raising money, runway, and investor conversations.
+  path: funding
+  goals:
+  - id: board-investor-reporting-rhythm
+    path: funding/board-investor-reporting-rhythm
+  - id: early-financing-rounds
+    path: funding/early-financing-rounds
+  - id: grants-accelerators-strategic
+    path: funding/grants-accelerators-strategic
+  - id: investor-pipeline-diligence
+    path: funding/investor-pipeline-diligence
+  - id: next-round-unlock-milestones
+    path: funding/next-round-unlock-milestones
+  - id: non-equity-financing-options
+    path: funding/non-equity-financing-options
+  - id: raising-seed-round
+    path: funding/raising-seed-round
+  - id: runway-model-and-buffer
+    path: funding/runway-model-and-buffer
+  - id: unit-economics-experiments
+    path: funding/unit-economics-experiments
+  - id: wind-down-or-acqui-hire-optionality
+    path: funding/wind-down-or-acqui-hire-optionality
+- id: building
+  title: Build & ship
+  summary: What you build, launch, and put in users' hands.
+  path: building
+  goals:
+  - id: beta-and-launch-paths
+    path: building/beta-and-launch-paths
+  - id: deep-tech-r-and-d-milestones
+    path: building/deep-tech-r-and-d-milestones
+  - id: defining-mvp-scope
+    path: building/defining-mvp-scope
+  - id: hardware-and-physical-goods
+    path: building/hardware-and-physical-goods
+  - id: pivot-or-scope-cut
+    path: building/pivot-or-scope-cut
+  - id: product-surface-expansion
+    path: building/product-surface-expansion
+  - id: reliability-support-ops
+    path: building/reliability-support-ops
+  - id: shipping-mvp
+    path: building/shipping-mvp
+  - id: technical-foundation
+    path: building/technical-foundation
+- id: customers
+  title: Customers & revenue
+  summary: Acquisition, pricing, narrative, and revenue signals.
+  path: customers
+  goals:
+  - id: community-or-open-source
+    path: customers/community-or-open-source
+  - id: early-gtm-motion
+    path: customers/early-gtm-motion
+  - id: feedback-loop-metrics
+    path: customers/feedback-loop-metrics
+  - id: first-case-studies
+    path: customers/first-case-studies
+  - id: first-paying-users-design-partners
+    path: customers/first-paying-users-design-partners
+  - id: icp-and-wedge
+    path: customers/icp-and-wedge
+  - id: international-expansion
+    path: customers/international-expansion
+  - id: partnerships-and-channels
+    path: customers/partnerships-and-channels
+  - id: positioning-and-story
+    path: customers/positioning-and-story
+  - id: pricing-and-packaging
+    path: customers/pricing-and-packaging
+  - id: problem-solution-validation
+    path: customers/problem-solution-validation
+  - id: strategic-design-partners
+    path: customers/strategic-design-partners
+- id: trust
+  title: Trust, compliance & risk
+  summary: Security, privacy, legal, and operating safely.
+  path: trust
+  goals:
+  - id: compliance-for-your-market
+    path: trust/compliance-for-your-market
+  - id: dual-mission-structure
+    path: trust/dual-mission-structure
+  - id: ethics-and-misuse
+    path: trust/ethics-and-misuse
+  - id: incident-readiness
+    path: trust/incident-readiness
+  - id: ip-trademarks-basics
+    path: trust/ip-trademarks-basics
+  - id: regulatory-industry-rules
+    path: trust/regulatory-industry-rules
+  - id: security-and-privacy-posture
+    path: trust/security-and-privacy-posture
+- id: operations
+  title: Operations & back office
+  summary: Finance rhythm, payroll, contracts, insurance—how the company runs.
+  path: operations
+  goals:
+  - id: cap-table-hygiene
+    path: operations/cap-table-hygiene
+  - id: company-financial-backbone
+    path: operations/company-financial-backbone
+  - id: customer-vendor-contract-templates
+    path: operations/customer-vendor-contract-templates
+  - id: insurance-d-and-o-epli
+    path: operations/insurance-d-and-o-epli
+  - id: runway-dashboard-burn-reviews
+    path: operations/runway-dashboard-burn-reviews
+- id: team
+  title: Hiring & team
+  summary: Recruiting, offers, and how new people start.
+  path: team
+  goals:
+  - id: advisors-versus-operators
+    path: team/advisors-versus-operators
+  - id: co-founder-alignment
+    path: team/co-founder-alignment
+  - id: early-team-hires
+    path: team/early-team-hires
+  - id: first-developer-hire
+    path: team/first-developer-hire
+  - id: founder-sustainability
+    path: team/founder-sustainability
+  - id: founding-roles-equity-decisions
+    path: team/founding-roles-equity-decisions
+  - id: immigration-and-work-authorization
+    path: team/immigration-and-work-authorization
+  - id: interview-process-and-bar
+    path: team/interview-process-and-bar
+  - id: onboarding-and-async-comms
+    path: team/onboarding-and-async-comms
+  - id: operating-rhythm
+    path: team/operating-rhythm
+  - id: remote-and-global-hiring
+    path: team/remote-and-global-hiring
+  - id: values-and-working-norms
+    path: team/values-and-working-norms

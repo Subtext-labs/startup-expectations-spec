@@ -8,6 +8,38 @@ tags:
   - first-hire
   - onboarding
 agent_hint: Stress role clarity, level fit, interview signal, and first weeks on a small team—pay and title that match stage.
+levels:
+  - id: l0
+    label: No hire
+    summary: Founders are building or outsourcing with no plan for a first engineering hire.
+    bar: No engineering hire has been made or role defined.
+    exit_criteria:
+      - Role need articulated — what will this person own that founders cannot or should not do
+      - Compensation range and equity researched for stage and location
+  - id: l1
+    label: Searching
+    summary: Job description written and sourcing started; bar not yet calibrated.
+    bar: Active outreach to candidates; at least one interview completed.
+    exit_criteria:
+      - Job description finalized with explicit non-goals for the role
+      - Interview process defined with at least one technical signal exercise
+  - id: l2
+    label: Hired
+    summary: Offer signed; first weeks planned with access, tooling, and an early win scoped.
+    bar: Hire is set up for success from day one — not dropped into chaos.
+    exit_criteria:
+      - Offer signed with vesting schedule and role clarity documented
+      - 30-day onboarding plan written with first independent task identified
+  - id: l3
+    label: Productive
+    summary: Hire is shipping independently within 60 days; founders not a bottleneck.
+    bar: Hire owns a meaningful surface without daily founder oversight.
+    exit_criteria:
+      - Hire has shipped at least one feature or fix end-to-end without founder pair
+      - Feedback loop in place — 1:1s running, early performance signal gathered
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed]
 load:
   - goals/team/first-developer-hire/agent-context.md
   - shared/roles/engineering-manager/responsibilities.md

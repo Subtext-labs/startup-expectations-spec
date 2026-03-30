@@ -1,0 +1,18 @@
+id: international-expansion
+title: International expansion
+category: customers
+version: 0.1.0
+summary: Sell or operate across regions when relevant.
+tags:
+- international
+- expansion
+agent_hint: Entity, tax, data residency, and GTM per region.
+stage_relevance:
+  primary: series-a
+  applies_to: [series-a]
+  ignore_before: seed
+load:
+- goals/customers/international-expansion/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

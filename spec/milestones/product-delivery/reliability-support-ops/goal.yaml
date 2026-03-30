@@ -1,0 +1,18 @@
+id: reliability-support-ops
+title: Reliability and support
+category: building
+version: 0.1.0
+summary: On-call and support at the right level for your stage.
+tags:
+- reliability
+- support
+agent_hint: Response expectations, runbooks, and honest SLAs.
+stage_relevance:
+  primary: seed
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/building/reliability-support-ops/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

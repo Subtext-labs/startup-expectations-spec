@@ -1,0 +1,46 @@
+id: unit-economics-experiments
+title: Unit economics experiments
+category: funding
+version: 0.1.0
+summary: Test gross margin, payback, and efficiency—not only top-line growth.
+tags:
+- unit-economics
+- margin
+agent_hint: Contribution margin, CAC payback experiments, cohort signals.
+levels:
+  - id: l0
+    label: No data
+    summary: No idea what CAC, LTV, or payback period looks like.
+    bar: Company has no paying customers or has not attempted to measure economics.
+    exit_criteria:
+      - First paying customer acquired; cost to acquire estimated
+  - id: l1
+    label: Rough estimates
+    summary: Anecdotal data on acquisition cost and revenue per user; no cohort tracking.
+    bar: Founders can state approximate CAC and LTV with caveats.
+    exit_criteria:
+      - CAC and LTV defined and calculated for at least one customer segment
+      - Payback period estimated
+  - id: l2
+    label: Measured
+    summary: CAC, LTV, and payback period calculated for first cohort with clear definitions.
+    bar: Numbers are defensible to investors and reviewed each quarter.
+    exit_criteria:
+      - Cohort analysis run on first 10+ customers
+      - Clear lever identified to improve one metric
+  - id: l3
+    label: Optimizing
+    summary: Cohort comparisons show improving payback; levers are actively tested.
+    bar: Unit economics are trending in the right direction with documented experiments.
+    exit_criteria:
+      - At least two cohorts compared with improving trend
+      - Experiment log shows what was tested and what moved the needle
+stage_relevance:
+  primary: seed
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/funding/unit-economics-experiments/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

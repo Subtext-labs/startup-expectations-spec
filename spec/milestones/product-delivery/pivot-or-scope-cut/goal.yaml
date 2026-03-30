@@ -1,0 +1,18 @@
+id: pivot-or-scope-cut
+title: Pivot or scope cut
+category: building
+version: 0.1.0
+summary: Change ICP or kill a line of work with a clear decision.
+tags:
+- pivot
+- strategy
+agent_hint: Decision criteria, team communication, and runway impact.
+stage_relevance:
+  primary: series-a
+  applies_to: [seed, series-a]
+  ignore_before: pre-seed
+load:
+- goals/building/pivot-or-scope-cut/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

@@ -1,0 +1,17 @@
+id: beta-and-launch-paths
+title: Beta and launch paths
+category: building
+version: 0.1.0
+summary: Sequence private beta, broader beta, and public launch with criteria.
+tags:
+- launch
+- beta
+agent_hint: Gates between phases; rollback and comms plan.
+stage_relevance:
+  primary: pre-seed
+  applies_to: [pre-seed, seed]
+load:
+- goals/building/beta-and-launch-paths/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

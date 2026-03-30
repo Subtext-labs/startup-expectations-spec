@@ -1,0 +1,18 @@
+id: first-paying-users-design-partners
+title: First paying users or design partners
+category: customers
+version: 0.1.0
+summary: Convert pilots into payment or deep co-development agreements.
+tags:
+- revenue
+- design-partners
+agent_hint: Pricing experiments, contracts, and success criteria with early users.
+stage_relevance:
+  primary: seed
+  applies_to: [seed]
+  ignore_before: pre-seed
+load:
+- goals/customers/first-paying-users-design-partners/agent-context.md
+- shared/roles/engineering-manager/responsibilities.md
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
+- industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md
