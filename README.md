@@ -1,7 +1,8 @@
 # Why this project exists
 
 **A plain-language, open spec for what “good” looks like at each stage of a startup—milestones, roles, and vocabulary you can share, fork, and build on.**
-Written by founders for other founders & builders
+Written by founders for other founders & builders.
+Aimed at humans and agents alike
 
 Built by [Amandeep Singh](https://github.com/adsingh) · [Star on GitHub](https://github.com/Subtext-labs/startup-expectations-spec) · [Read on GitBook](https://subtext-2.gitbook.io/startup-expectations-specifications)
 
